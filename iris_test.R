@@ -1,2 +1,3 @@
 data("iris")
-lm(Sepal.Width~Sepal.Length, iris)
+model<-lm(Sepal.Width~Sepal.Length, iris)
+
